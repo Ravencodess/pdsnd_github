@@ -290,7 +290,8 @@ def trip_duration_stats(df):
     hours, minutes, seconds = int_to_hms(mean_travel_time)
     print(
         f"The Mean travel time was {hours} Hours, {minutes} Minutes and {seconds} Seconds")
-
+    
+    print()
     print(f"\nThis took {time.time() - start_time} seconds to compute")
     print('-'*40)
 
@@ -315,6 +316,7 @@ def user_stats(df):
     """
 
     print('\nCalculating User Stats...\n')
+    print()
     start_time = time.time()
 
     # Display counts of user types
