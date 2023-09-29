@@ -62,9 +62,6 @@ The project directory structure is organized as follows:
         bikeshare-analysis/
     │
     ├── bikeshare.py         # Main Python script for data analysis
-    ├── chicago.csv          # Bikeshare data for Chicago
-    ├── new_york_city.csv    # Bikeshare data for New York City
-    ├── washington.csv       # Bikeshare data for Washington
     ├── bikeshare.jpg        # Project image
     ├── README.md            # Project README file
     │
